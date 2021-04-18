@@ -2,15 +2,15 @@ import pygame
 import random
 
 pygame.init()
-cactus_image = [pygame.image.load("bigcactus.png"), pygame.image.load("smallcactus.png"),
-                pygame.image.load("manycactus.png"), pygame.image.load("manycactus2.png"),
-                pygame.image.load("manycactus3.png"), pygame.image.load("smallcactus2.png")]
-dino_walk_image = [pygame.image.load("dinorun1.png"), pygame.image.load("dinorun2.png")]
-dino_duck_image = [pygame.image.load("dinoduck1.png"), pygame.image.load("dinoduck2.png")]
-dino_jump_image = pygame.image.load("dinojump.png")
-bird_image = [pygame.image.load("bird1.png"), pygame.image.load("bird2.png")]
-ground_image1 = pygame.image.load("ground.png")
-ground_image2 = pygame.image.load("ground.png")
+cactus_image = [pygame.image.load("images/bigcactus.png"), pygame.image.load("images/smallcactus.png"),
+                pygame.image.load("images/manycactus.png"), pygame.image.load("images/manycactus2.png"),
+                pygame.image.load("images/manycactus3.png"), pygame.image.load("images/smallcactus2.png")]
+dino_walk_image = [pygame.image.load("images/dinorun1.png"), pygame.image.load("images/dinorun2.png")]
+dino_duck_image = [pygame.image.load("images/dinoduck1.png"), pygame.image.load("images/dinoduck2.png")]
+dino_jump_image = pygame.image.load("images/dinojump.png")
+bird_image = [pygame.image.load("images/bird1.png"), pygame.image.load("images/bird2.png")]
+ground_image1 = pygame.image.load("images/ground.png")
+ground_image2 = pygame.image.load("images/ground.png")
 win = pygame.display.set_mode((1200, 400))
 
 clock = pygame.time.Clock()
